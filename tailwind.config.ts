@@ -20,8 +20,58 @@ const config: Config = {
         900: '#162020',
       },
     },
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            fontSize: '1rem',
+            maxWidth: '100%',
+            h1: {
+              fontSize: '8rem',
+              fontWeight: '600',
+              lineHeight: 1,
+              letterSpacing: '-1px',
+            },
+            h2: {
+              fontSize: '6rem',
+              fontWeight: '600',
+              lineHeight: 1,
+              letterSpacing: '-0.5px',
+            },
+            h3: {
+              fontSize: '4rem',
+              fontWeight: '600',
+              lineHeight: 1.1,
+              letterSpacing: '-1px',
+            },
+            h4: {
+              fontSize: '2.5rem',
+              fontWeight: '600',
+              lineHeight: 1.1,
+              letterSpacing: '-1px',
+            },
+            h5: {
+              fontSize: '2rem',
+              fontWeight: '600',
+              lineHeight: 1.2,
+              letterSpacing: '-1px',
+            },
+            h6: {
+              fontSize: '1.5rem',
+              fontWeight: '600',
+              lineHeight: 1.2,
+              letterSpacing: '-0.05px',
+            },
+            p: {
+              fontSize: '1rem',
+              lineHeight: '26px',
+            },
+          },
+        },
+      },
+    },
   },
-  plugins: [require('daisyui')],
+  plugins: [require('daisyui'), require('@tailwindcss/typography')],
   daisyui: {
     themes: [
       {
