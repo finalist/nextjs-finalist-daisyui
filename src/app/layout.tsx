@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Raleway } from 'next/font/google'
 import './globals.css'
 
-export const raleway = Raleway({
+const raleway = Raleway({
   weight: '400',
   style: ['normal', 'italic'],
   subsets: ['latin'],

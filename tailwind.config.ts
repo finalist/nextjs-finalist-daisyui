@@ -81,7 +81,7 @@ const config: Config = {
           secondary: '#faefe7',
           'secondary-content': '#000',
           accent: '#c0c0ff',
-          'accent-content:': '#000',
+          'accent-content': '#000',
           neutral: '#162020',
           'neutral-content': '#fff',
           'base-100': '#ffffff',
